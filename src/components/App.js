@@ -1,24 +1,58 @@
-import '../style/App.css';
+import React, { useState, useEffect } from "react";
+import { Layout } from 'antd';
+import { connect } from "react-redux";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { SideBar } from "./SideBar";
+import { HeaderComponent } from "./HeaderComponent";
+import { getMovies } from "../actions/movies";
+
+const { Content } = Layout;
+
+const App = ({ getMovies, isLoading, movies }) => {
+    const [collapsed, toggleCollapse] = useState(false);
+
+    useEffect(() => {
+        getMovies();
+    }, []);
+
+    const toggle = () => {
+        toggleCollapse(!collapsed);
+    };
+
+    console.log(isLoading, movies);
+
+    return (
+        <>
+            <Layout>
+                <SideBar collapsed={collapsed}/>
+                <Layout className="site-layout">
+                    <HeaderComponent collapsed={collapsed} toggle={toggle}/>
+                    <Content
+                        className="site-layout-background"
+                        style={{
+                            margin: '24px 16px',
+                            padding: 24,
+                            minHeight: 280,
+                        }}
+                    >
+                        Content
+                    </Content>
+                </Layout>
+            </Layout>
+            <div className="footer">Cinema App</div>
+        </>
+    );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+    return {
+        isLoading: state.isLoading,
+        movies: state.movies
+    }
+}
+
+const mapDispatchToProps = {
+    getMovies: getMovies
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
