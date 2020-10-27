@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3236863-fad6-426c-bfbf-41546ce8280b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/movies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderComponent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MoviePreview.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MoviePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="React JSX" />
         <option value="JavaScript File" />
+        <option value="React JSX" />
       </list>
     </option>
   </component>
@@ -54,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebstormProjects\cinema-app-v2\src\pages" />
       <recent name="D:\WebstormProjects\cinema-app-v2\src\components" />
       <recent name="D:\WebstormProjects\cinema-app-v2\src\style" />
     </key>
@@ -86,14 +82,31 @@
       <workItem from="1603469125532" duration="266000" />
       <workItem from="1603469563802" duration="196000" />
       <workItem from="1603470003885" duration="341000" />
-      <workItem from="1603472691544" duration="7222000" />
+      <workItem from="1603472691544" duration="7458000" />
+      <workItem from="1603821647237" duration="7332000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson 1">
+      <created>1603480139118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603480139118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="468" y="0" key="CommitChangelistDialog2" timestamp="1603480138261">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="468" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603480138261" />
     <state x="437" y="193" key="IDE.errors.dialog" timestamp="1603469578886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

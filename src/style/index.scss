@@ -46,3 +46,62 @@ code {
   background: white;
   width: 100%;
 }
+
+.spinner-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 0 40px;
+
+  &>a {
+    width: 250px;
+    height: 400px;
+    margin: 40px 30px;
+
+    .movie-title {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 10px;
+      color: #383838;
+    }
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.active-link {
+  background: #1890ff;
+}
+
+nav {
+  a {
+    display: block;
+    padding: 15px;
+    color: white;
+
+    span:last-child {
+      margin-left: 15px;
+    }
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-end;
+
+  .ant-input-search {
+    width: 250px;
+  }
+}

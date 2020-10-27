@@ -5,6 +5,7 @@ import {
     VideoCameraOutlined,
     UploadOutlined,
 } from '@ant-design/icons';
+import { NavLink } from "react-router-dom";
 
 const { Sider } = Layout;
 
@@ -12,17 +13,26 @@ export const SideBar = ({ collapsed }) => {
     return (
         <Sider trigger={null} collapsible collapsed={collapsed}>
             <div className="logo" />
-            <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-                <Menu.Item key="1" icon={<UserOutlined />}>
-                    nav 1
-                </Menu.Item>
-                <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-                    nav 2
-                </Menu.Item>
-                <Menu.Item key="3" icon={<UploadOutlined />}>
-                    nav 3
-                </Menu.Item>
-            </Menu>
+            <nav>
+                <NavLink to="/" exact activeClassName="active-link">
+                    <span>
+                        <UserOutlined />
+                    </span>
+                    <span>Home</span>
+                </NavLink>
+                <NavLink to="/movie" activeClassName="active-link">
+                    <span>
+                        <VideoCameraOutlined />
+                    </span>
+                    <span>Movie Page</span>
+                </NavLink>
+                <a>
+                    <span>
+                        <VideoCameraOutlined />
+                    </span>
+                    <span>nav 3</span>
+                </a>
+            </nav>
         </Sider>
     )
 }
