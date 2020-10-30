@@ -101,7 +101,12 @@ nav {
   display: flex;
   justify-content: flex-end;
 
-  .ant-input-search {
+  .ant-input {
     width: 250px;
+  }
+
+  .ant-select {
+    width: 250px;
+    margin-left: 30px;
   }
 }
