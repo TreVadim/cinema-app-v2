@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3236863-fad6-426c-bfbf-41546ce8280b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/schedule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InfoBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SchedulePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MoviePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
     </list>
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="React JSX" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,6 +46,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,6 +86,9 @@
       <workItem from="1603472691544" duration="7458000" />
       <workItem from="1603821647237" duration="7444000" />
       <workItem from="1604080955964" duration="7225000" />
+      <workItem from="1604088298005" duration="27000" />
+      <workItem from="1604138018027" duration="203000" />
+      <workItem from="1604426990096" duration="6216000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1">
       <created>1603480139118</created>
@@ -95,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603829126186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson 3">
+      <created>1604088313095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604088313095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,17 +120,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 1" />
     <MESSAGE value="lesson 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 2" />
+    <MESSAGE value="lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2" timestamp="1603829125347">
+    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2" timestamp="1604088312376">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603829125347" />
+    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1604088312376" />
+    <state x="687" y="219" key="FileChooserDialogImpl" timestamp="1604427075750">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="687" y="219" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1604427075750" />
     <state x="437" y="193" key="IDE.errors.dialog" timestamp="1603469578886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="193" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603469578886" />
+    <state x="336" y="82" key="SettingsEditor" timestamp="1604433216521">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="336" y="82" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1604433216521" />
     <state x="532" y="239" key="run.anything.popup" timestamp="1604087639360">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

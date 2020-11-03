@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Menu } from 'antd';
+import { Layout } from 'antd';
 import {
     UserOutlined,
     VideoCameraOutlined,
@@ -26,12 +26,12 @@ export const SideBar = ({ collapsed }) => {
                     </span>
                     <span>Movie Page</span>
                 </NavLink>
-                <a>
+                <NavLink to="/schedule" activeClassName="active-link">
                     <span>
-                        <VideoCameraOutlined />
+                        <UploadOutlined />
                     </span>
-                    <span>nav 3</span>
-                </a>
+                    <span>Schedule</span>
+                </NavLink>
             </nav>
         </Sider>
     )

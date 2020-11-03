@@ -8,6 +8,7 @@ import { SideBar } from "./SideBar";
 import { HeaderComponent } from "./HeaderComponent";
 import HomePage from "../pages/HomePage";
 import MoviePage from "../pages/MoviePage";
+import SchedulePage from "../pages/SchedulePage";
 import { getMovies } from "../actions/movies";
 
 const { Content } = Layout;
@@ -50,6 +51,7 @@ const App = ({ getMovies, isLoading, movies }) => {
                                     <Switch>
                                         <Route path="/" exact component={HomePage} />
                                         <Route path="/movie/:id" component={MoviePage} />
+                                        <Route path="/schedule" component={SchedulePage} />
                                     </Switch>
                                 )
                             }

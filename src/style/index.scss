@@ -110,3 +110,70 @@ nav {
     margin-left: 30px;
   }
 }
+
+.movie-page {
+  margin-top: 20px;
+  background: #f7f7f7;
+  padding: 15px;
+  min-height: 82vh;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+
+  h1 {
+    text-align: center;
+  }
+
+  .movie-info {
+    margin: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+
+    & > div:first-child {
+      width: 25%;
+    }
+
+    & > div:last-child {
+      width: 72%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .info-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    & > div:first-child {
+      width: 10%;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    &>div:last-child {
+      width: 88%;
+    }
+
+    iframe {
+      border: 0;
+    }
+  }
+}
+
+.btn-buy {
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  background: #ffad40;
+  border: 1px solid #e29938;
+
+  &:hover {
+    background: #ff9b14;
+    border-color: #ed981f;
+  }
+}
