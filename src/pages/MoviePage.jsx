@@ -79,7 +79,7 @@ const MoviePage = ({ movies, match }) => {
 };
 
 const mapStateToProps = (state) => ({
-    movies: state.movies
+    movies: state.moviesData.movies
 });
 
 export default connect(mapStateToProps)(MoviePage);

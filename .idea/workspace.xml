@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3236863-fad6-426c-bfbf-41546ce8280b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/schedule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InfoBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SchedulePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/moviesReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/sessionsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/schedule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MoviePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SchedulePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SchedulePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,8 @@
       <workItem from="1604080955964" duration="7225000" />
       <workItem from="1604088298005" duration="27000" />
       <workItem from="1604138018027" duration="203000" />
-      <workItem from="1604426990096" duration="6216000" />
+      <workItem from="1604426990096" duration="6242000" />
+      <workItem from="1604685939897" duration="6189000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1">
       <created>1603480139118</created>
@@ -111,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604088313095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson 4">
+      <created>1604433604961</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604433604961</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,13 +131,14 @@
     <MESSAGE value="lesson 1" />
     <MESSAGE value="lesson 2" />
     <MESSAGE value="lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 3" />
+    <MESSAGE value="lesson 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2" timestamp="1604088312376">
+    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2" timestamp="1604433604172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1604088312376" />
+    <state x="468" y="0" width="1196" height="1050" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1604433604172" />
     <state x="687" y="219" key="FileChooserDialogImpl" timestamp="1604427075750">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -140,9 +151,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="336" y="82" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1604433216521" />
-    <state x="532" y="239" key="run.anything.popup" timestamp="1604087639360">
+    <state x="532" y="239" key="run.anything.popup" timestamp="1604687243829">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="532" y="239" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604087639360" />
+    <state x="532" y="239" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604687243829" />
   </component>
 </project>

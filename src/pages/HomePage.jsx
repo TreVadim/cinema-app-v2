@@ -103,7 +103,7 @@ const HomePage = ({ movies }) => {
 };
 
 const mapStateToProps = (state) => ({
-    movies: state.movies
+    movies: state.moviesData.movies
 });
 
 export default connect(mapStateToProps)(HomePage);

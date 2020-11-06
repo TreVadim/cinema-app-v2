@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { connect } from "react-redux";
 
-const SchedulePage = () => {
+import { getSessionData } from "../actions/schedule";
+
+const SchedulePage = ({ getSessionData }) => {
+    useEffect(() => {
+        getSessionData();
+    }, []);
+
     return (
         <h1>Schedule</h1>
     );
 };
 
-export default SchedulePage;
+const mapDispatchToProps = {
+    getSessionData
+};
+
+export default connect(() => {}, mapDispatchToProps)(SchedulePage);

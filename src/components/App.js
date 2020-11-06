@@ -66,8 +66,8 @@ const App = ({ getMovies, isLoading, movies }) => {
 
 const mapStateToProps = (state) => {
     return {
-        isLoading: state.isLoading,
-        movies: state.movies
+        isLoading: state.moviesData.isLoading,
+        movies: state.moviesData.movies
     }
 }
 

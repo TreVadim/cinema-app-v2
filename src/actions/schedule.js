@@ -7,7 +7,10 @@ const setRooms = (payload) => ({ type: SET_ROOMS, payload });
 export const getSessionData = () => {
     return (dispatch) => {
         Promise.all([axios.get(SESSIONS_URL), axios.get(ROOMS_URL)])
-            .then((data) => {console.log(data)})
+            .then(([sessions, rooms]) => {
+                dispatch(setSessions(sessions.data.session));
+                dispatch(setRooms(rooms.data.rooms))
+            })
             .catch((error) => {console.log(error)});
     }
 }
